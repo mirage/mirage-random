@@ -5,10 +5,9 @@ sudo: required
 env:
   global:
     - PACKAGE="mirage-random"
-    - EXTRA_REMOTES="https://github.com/mirage/mirage-dev.git"
   matrix:
-    - OCAML_VERSION=4.02
     - OCAML_VERSION=4.03
     - OCAML_VERSION=4.04
+    - REVDEPS=true
 notifications:
   email: false

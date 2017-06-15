@@ -1,3 +1,0 @@
-PKG cstruct
-S src/
-B _build/src/
