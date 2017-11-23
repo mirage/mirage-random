@@ -8,6 +8,7 @@ env:
     - REVDEPS=true
   matrix:
     - OCAML_VERSION=4.04
+    - OCAML_VERSION=4.05
     - OCAML_VERSION=4.06
 notifications:
   email: false
