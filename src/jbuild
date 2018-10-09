@@ -2,6 +2,6 @@
  ((name       stdlibrandom)
   (synopsis "Random-related devices for MirageOS")
   (public_name mirage-random)
-  (libraries   (cstruct))
+  (libraries   (cstruct mirage-entropy))
   (wrapped false)
 ))

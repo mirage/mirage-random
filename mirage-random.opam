@@ -18,6 +18,7 @@ build: [
 depends: [
   "jbuilder" {build & >="1.0+beta9"}
   "cstruct" {>= "1.9.0"}
+  "mirage-entropy"
 ]
 
 available: [ ocaml-version >= "4.04.2" ]
