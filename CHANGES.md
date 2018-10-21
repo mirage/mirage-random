@@ -1,9 +1,12 @@
-v1.1.0 2017-06-15
------------------
+### master
 
-- Port to Jbuilder
+* Move Stdlibrandom to a separate package, mirage-random-stdlib
+* Port to dune
 
-v1.0.0 2016-12-20
------------------
+### v1.1.0 (2017-06-15)
 
-- Initial version, code imported from https://github.com/mirage/mirage
+* Port to Jbuilder
+
+### v1.0.0 (2016-12-20)
+
+* Initial version, code imported from https://github.com/mirage/mirage
