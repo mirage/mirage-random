@@ -5,6 +5,7 @@ sudo: required
 env:
   global:
     - PACKAGE="mirage-random"
+    - PINS="mirage-random.dev:."
     - REVDEPS=true
   matrix:
     - OCAML_VERSION=4.04
