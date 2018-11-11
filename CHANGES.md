@@ -1,4 +1,4 @@
-### master
+### v1.2.0 (2018-11-11)
 
 * Move Stdlibrandom to a separate package, mirage-random-stdlib
 * Port to dune
