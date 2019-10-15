@@ -25,16 +25,13 @@
 (** {1 Operations to generate random numbers} *)
 module type S = sig
 
-  type buffer
-  (** The type for memory buffer. *)
-
   type g
   (** The state of the generator. *)
 
-  val generate: ?g:g -> int -> buffer
+  val generate: ?g:g -> int -> Cstruct.t
   (** [generate ~g n] generates a random buffer of length [n] using [g]. *)
 
 end
 
-(** Operations to generated random numbers using [Cstruct] buffers. *)
-module type C = S with type buffer = Cstruct.t
+module type C = S
+[@@ocaml.deprecated "This module alias to Mirage_random.S will be removed from MirageOS 4.0, use Mirage_random.S directly."]

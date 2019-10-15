@@ -1,3 +1,8 @@
+### v2.0.0
+
+* Specialise buffer to Cstruct.t directly in Mirage_random.S
+* Deprecate Mirage_random.C
+
 ### v1.2.0 (2018-11-11)
 
 * Move Stdlibrandom to a separate package, mirage-random-stdlib
