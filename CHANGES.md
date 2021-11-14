@@ -1,6 +1,6 @@
 ### v3.0.0 (2021-11-15)
 
-* Remove Mirage_random.C (@hannesm)
+* Remove Mirage_random.C (#14 @hannesm)
 
 ### v2.0.0 (2019-10-21)
 
