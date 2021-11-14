@@ -32,6 +32,3 @@ module type S = sig
   (** [generate ~g n] generates a random buffer of length [n] using [g]. *)
 
 end
-
-module type C = S
-[@@ocaml.deprecated "This module alias to Mirage_random.S will be removed from MirageOS 4.0, use Mirage_random.S directly."]
