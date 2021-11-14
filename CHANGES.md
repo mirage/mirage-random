@@ -1,3 +1,7 @@
+### v3.0.0 (2021-11-15)
+
+* Remove Mirage_random.C (@hannesm)
+
 ### v2.0.0 (2019-10-21)
 
 * Specialise buffer to Cstruct.t directly in Mirage_random.S (#12 @hannesm)
