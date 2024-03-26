@@ -1,10 +1,9 @@
 ## mirage-random -- Random signatures for MirageOS
 
-mirage-random defines [Mirage_random.S][1] and [Mirage_random.C][2]
+mirage-random defines [Mirage_random.S][1]
 the signature for random-related devices for MirageOS.
 
 [1]: https://mirage.github.io/mirage-random/Mirage_random.S.html
-[2]: https://mirage.github.io/mirage-random/Mirage_random.C.html
 
 ### Installation
 
