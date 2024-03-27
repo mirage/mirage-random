@@ -1,4 +1,3 @@
 (library
   (name mirage_random)
-  (public_name mirage-random)
-  (libraries cstruct))
+  (public_name mirage-random))

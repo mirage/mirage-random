@@ -28,7 +28,11 @@ module type S = sig
   type g
   (** The state of the generator. *)
 
-  val generate: ?g:g -> int -> Cstruct.t
-  (** [generate ~g n] generates a random buffer of length [n] using [g]. *)
+  val generate: ?g:g -> int -> string
+  (** [generate ~g len] generates a random buffer of length [len] using [g]. *)
+
+  val generate_into : ?g:g -> bytes -> ?off:int -> int -> unit
+  (** [generate_into ~g buf ~off len] puts [len] bytes random data into [buf]
+      starting at [off] (defaults to 0). *)
 
 end
