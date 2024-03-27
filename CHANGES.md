@@ -1,3 +1,9 @@
+### v4.0.0 (2024-03-27)
+
+* Revise API: `val generate : ?g:g -> int -> string`, and
+  `val generate_into : ?g:g -> bytes -> ?off:int -> int -> unit`
+  Remove cstruct dependency (#15 @hannesm)
+
 ### v3.0.0 (2021-11-15)
 
 * Remove Mirage_random.C (#14 @hannesm)
