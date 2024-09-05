@@ -1,3 +1,5 @@
+Note: this package is archived - please use [mirage-crypto-rng-mirage](https://github.com/mirage/mirage-crypto/blob/main/rng/mirage/mirage_crypto_rng_mirage.mli).
+
 ## mirage-random -- Random signatures for MirageOS
 
 mirage-random defines [Mirage_random.S][1]
